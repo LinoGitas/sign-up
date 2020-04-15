@@ -1,51 +1,72 @@
 .container{
-    display:inline-block;
-    width: 600px;
+    width: 800px;
     margin-top:100px;
-    margin-left:calc( 50% - 300px );
+    margin-left:calc( 50% - 400px );
     background-color: red;
 }
 
 .left{
-    display: inline-block;
     width: 40%;
     float:left;
     background-color: yellow;
 }
 
     .left > h1{
-        display: inline-block;
+
     }
 
     .left > .links{
-        display: inline-block;
+
     }
 
     .left > .links a{
-        display: inline-block;
+ 
     }
 
     .left > .links > span{
-        display: inline-block; 
+        
     }
 
 .right{
-    display: inline-block;
     width: 60%;
     float:left;
     padding:60px;
     background-color: aquamarine;
-    box-sizing: border-box;
 }
     .right > .close {
 
     }
 
     form {
-
+        width: 100%;
     }
+        form > .formRow {
+            width: 100%;
+            border:none;
+            margin-bottom: 30px;
+        }
 
-    form > .formRow > label {
+        form > .formRow:last-of-type {
+            margin-bottom: 0;
+        }
 
-    }
+        form > .formRow > label {
+            width: 100%;
+        }
+
+        form > .formRow > input {
+            width: 100%;
+        }
+
+        form > .formRow > .btn {
+
+        }
+
+        form > .formRow > span {
+            display:inline-block;
+        }
+
+        form > .formRow > a {
+            display:inline-block;
+        }
 
