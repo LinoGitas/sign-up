@@ -1,14 +1,17 @@
+body{
+    background-color: cadetblue;
+}
+
 .container{
     width: 800px;
     margin-top:100px;
     margin-left:calc( 50% - 400px );
-    background-color: red;
 }
 
 .left{
     width: 40%;
     float:left;
-    background-color: yellow;
+    background-color: darkcyan;
 }
 
     .left > h1{
@@ -31,7 +34,7 @@
     width: 60%;
     float:left;
     padding:60px;
-    background-color: aquamarine;
+    background-color:#fff;
 }
     .right > .close {
 
@@ -46,27 +49,49 @@
             margin-bottom: 30px;
         }
 
-        form > .formRow:last-of-type {
+        form > .formRow:last-of-child {
             margin-bottom: 0;
         }
 
         form > .formRow > label {
             width: 100%;
+            color:grey;
+            font-size:15px;
+            line-height: 20px;
+            text-transform: uppercase;
         }
 
         form > .formRow > input {
             width: 100%;
+            border: none;
+            border-bottom: 2px solid #ccc;
+            font-size: 22px;
+            line-height: 40px;
+           
+        }
+
+        form > .formRow > input:focus {
+            outline:none;
         }
 
         form > .formRow > .btn {
-
+            padding: 0 20px 0 20px;
+            background-color: #005dda;
+            color:#fff;
+            font-size: 20px;
+            line-height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
         }
 
         form > .formRow > span {
-            display:inline-block;
+            line-height: 40px;
+            margin:0 20px 0 20px;
         }
 
         form > .formRow > a {
-            display:inline-block;
+            color:#36f;
+            text-decoration: none;
+            line-height: 40px;
         }
 
